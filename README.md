@@ -31,7 +31,11 @@ How to run the provided code:
    - hint: change np.objects to objects
    - hint: Add shell=True to the 'check_output' function arguments at line 83 of oa.py
    - Might require further changes if you are getting errors.
-4) install needed packages to run the neural network, etc., like: numpy, TF (can be seen in the .ipynb codes). if you get a package not found error, you need to download it. (a full list of requirements.txt is also availabe, but you probably won't need all of them)
+4) install needed packages to run the neural network, etc., like: numpy, TF (can be seen in the .ipynb codes). if you get a package not found error, you need to download it. The following are the packages we used:
+   - keras==2.11.0
+   - numpy==1.24.3
+   - ply==3.11
+   - tensorflow==2.11.0
 2) get RABINIZER4 (CSRL needs it): https://www7.in.tum.de/~kretinsk/rabinizer4.html and add it to the PATH so that OS calls can find it.
     - hint: basically, if you run 'ltl2ldba' in the terminal, your OS should recognize it
 4) the code in .ipynb files are straight forward and each correspond to one of the cases. You can change the hyperparameter inside the code and run them.
