@@ -1,0 +1,6 @@
+To run the code:
+
+1) get CSRL's code from their repo: https://gitlab.oit.duke.edu/cpsl/csrl and place it next to the .ipynb files
+3) install needed packages like: numpy, TF (can be seen in the .ipynb codes). if you get a package not found error, need to download it. (a full list of requirements.txt is also availabe, but you probably won't need all of thoes packages)
+2) get RABINIZER4 (CSRL needs it): https://www7.in.tum.de/~kretinsk/rabinizer4.html and add it to the PATH so that OS calls can find it. (Some changes inside CSRL's code might be neede to run it, as it is using slightly older versions of packages such as numpy, but nothing too difficult)
+4) the code in .ipynb files are straight forward and each correspond to one of the cases.
